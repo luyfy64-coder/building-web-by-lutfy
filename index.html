@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>LUTFY Portfolio Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>⚡ LUTFY Builder</h1>
+  <p class="subtitle">Buat portfolio cepat & modern</p>
+
+  <div class="grid">
+    <!-- FORM -->
+    <div class="card">
+      <input id="nama" placeholder="Nama">
+      <input id="bio" placeholder="Bio singkat">
+      <input id="skill" placeholder="Skill (HTML, JS, dll)">
+      <textarea id="project" placeholder="Project kamu"></textarea>
+
+      <button onclick="generate()">Generate</button>
+      <button onclick="download()">Download</button>
+    </div>
+
+    <!-- PREVIEW -->
+    <div class="preview-card">
+      <iframe id="preview"></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
